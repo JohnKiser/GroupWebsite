@@ -1,23 +1,101 @@
 <!doctype html>
+
+<!--
+GIMM 300 Group Website
+
+Created By:
+	Chris Dahrens
+	Matt Marquart
+	John Kiser
+-->
+
 <html>
+
 <head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 <meta charset="utf-8">
-<title>Main</title>
+<title>Main Page</title>
+<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
 </head>
 
-
-<body>
-		
-	<style>
-		.color{
-			color: orange;
-			background-color: black;
-		}	
-	</style>
-		
-	<h1 class="color">The Wednesday on Saturday on Wednesday group website!</h1>
-	<p class="color">This is the website for the Wednesday on Saturday on Wednesday group.</p>
+<style>
 	
-	<a ><img src="Almonzo Time Magazine.png" alt="Hold Onto Your Butts"></a>
+	<!-- style classes go here -->
+	body{
+		background-color: lightgray;
+	}
+	.color{
+		color: black;
+		text-align: center;
+	}
+	
+	.greyBox{
+		background-color: darkgray;
+	}
+	.dropdownButton{
+		margin-top: 35px;
+	}
+	.title{
+		margin-top: 25px;
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-bottom: 10px;
+	}
+	.subtitle{
+		height: 35px;
+	}
+	.footer{
+		margin-top: 20px;	
+	}
+	.centerPicture{
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+	}
+</style>
+
+<body style="background-color: lightgray">
+	<div class="container-fluid row greyBox">  <!-- Header -->
+		
+		<!-- dropdown menu stuff here -->
+		<div class="col-xl-auto dropdownButton">
+			<button class="btn btn-light dropdown-toggle btn-lg align-self-center"	 type="button" id="asdf" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Members</button>
+			<div class="dropdown-menu " aria-labelledby="asdf">
+				<button class="dropdown-item color" href="#">John Kiser</button>
+				<button class="dropdown-item color" href="#">Chris Dahrens</button>
+				<button class="dropdown-item color" href="#">Matt Marquart</button>
+			</div>
+		</div>
+		
+		<!-- Title -->
+		<div class="col-xl-10">
+			<h1 class="color title">The <i>Wednesday on Saturday on Wednesday</i> Group Website!</h1>
+		</div>
+		
+	</div>
+	
+	<!-- Subtitle -->
+	<p class="color greyBox subtitle"><i>The <b>Official</b> Website for the Wednesday on Saturday on Wednesday Group.</i></p>
+	
+	<p> </p>
+	
+	<img src="Almonzo Time Magazine.png" class="centerPicture" alt="Hold Onto Your Butts" style="text-">
+	
+	<p> </p>
+	
+	
+	<div class="row">
+		<div class="col-xl-8 greyBox"></div>
+		<div class="col-xl-4 greyBox">
+			<p> </p>
+			<p><i>©Wednesday on Saturday on Wednesday Group 2018</i></p>
+		</div>
+	</div>
+	
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </body>
+
 </html>
