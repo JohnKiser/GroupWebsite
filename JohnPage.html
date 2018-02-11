@@ -1,49 +1,96 @@
-<!doctype html>
+﻿<!doctype html>
 <html>
 <head>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-<meta charset="utf-8">
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/4.0.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <title>JohnsPage</title>
 </head>
 	
 <style>
 	html, body{
-		height: 100%;
+		height: 200%;
 		width: 100%;
 		max-height: 100%;
 		margin:0;
 		padding:0;
 		background-image: url("vinyl.jpg");
-		background-size: 100% 100%;
+		background-size: 100% 5000%;
 		background-repeat: no-repeat;
 		
 	}
-	.rotate270 {
-    -webkit-transform: rotate(270deg);
-    -moz-transform: rotate(270deg);
-    -o-transform: rotate(270deg);
-    -ms-transform: rotate(270deg);
-    transform: rotate(270deg);
-		width: 500px;
-		height: auto;
-		margin-top: 150px;
+	.bgMargin{
+		margin-bottom: auto;
+		margin-left: -5%;
+		margin-right: -5%;
 	}
-	.centerImg{
+	.resizeImg {
+		width: 100%;
+		height: auto;
 		display:block;
 		margin-left: auto;
-		margin-right: auto;
-		
+		margin-right:auto;
+		margin-top:50%;
+		margin-bottom:50%;
 	}
 	
-	.text {
-		color:aliceblue;
-		text-align: center;
+	.resizeImg2 {
+		width: 50%;
+		height: auto;
+		display:block;
+		margin-left: auto;
+		margin-right:auto;
 	}
+	
+	.textColor {
+		text-align: center;
+		word-wrap: break-word;
+		color:aliceblue;
+		
+	}
+	.positioning{
+		align-content: center;
+		margin-bottom: 50px;
+		margin-top: 50px;
+	}
+
 	
 </style>
 <body>
-	<h1 class = "text">John Kiser</h1>
-	<h2 class = "text">Dicks, Dicks, and more Dicks</h2>
-	<img src = "JohnPicture.jpg" class = "rotate270 centerImg" alt = "Johnny Boi" align = "middle">
+	
+	<div class="container-fluid textColor">
+  	<h1 class = "bgMargin" style = "background-color: black">John Kiser</h1>
+	<h2 class = "bgMargin" style = "background-color: black">Hello, I am Gay.</h2>
+		<br>
+	<h3><button><a href="GroupMainPage.html">Home</a></button></h3>
+  	<div class="row">
+   		 <div class="col-xs-5 col-sm-5">
+			 <h3>Bio:</h3>
+			 <p>
+                I studied music for years at the university of Idaho and while studying music education I discovered a fascination with the development of video games and how music plays a part in the gaming experience. This eventually led me to the GIMM program at BSU where I am currently studying game development and design. I am a nerd through and though and spend most of my free time either playing video games or playing dungeons and dragons. I was a founding member of the Dungeons and Broncos club at BSU and enjoy bringing a game I love so much to so many different people.
+			</p> 
+			 <br>
+			 
+			 <h5>Check out some games I have helped make here.<br><a href = "https://play.google.com/store/search?q=sineglitch&c=apps"><img src="SineGlitch.png" class = "resizeImg2" alt = "SineGlitch Logo"></a></h5>
+		</div>
+		
+    	<div class="col-xs-2 col-sm-2" style="background-color:lavender;">
+			<img src="JohnPicture.jpg" class="resizeImg" alt="Johnny Boi">
+		</div>
+		
+    	<div class="col-xs-5 col-sm-5">
+			<h3>Skills:</h3>
+			<p>
+                    I am a classically trained musician and composer. I have taught elementary music and private lessons. I have a basic understanding of a couple coding languages, C# and Action Script. I am an accomplished dungeon master and have taught many people to play many differing tabletop roll playing games.
+				<br>
+				<br>
+				<b>Here is a playlist of some gameboy style chip tunes.</b>
+        	</p>
+			<iframe width="75%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/207716434&amp;color=%23ff5500&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true">Where does this show up?</iframe>
+		</div>
+ 	 </div>		
+	</div>
 </body>
 </html>
