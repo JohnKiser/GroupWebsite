@@ -1,0 +1,135 @@
+body {
+background: url('treewater.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-color: black;
+}
+
+/*The foundation for this css class was obtained as a free, open-source file and can be found here https://codepen.io/DLady/pen/rxRLGj and was expanded upon and refined by me for the purpose of this assignment
+The classes by themselves are actually surprisingly simple, but it was very interesting to work with the code
+and I feel as though I genuinely learned more than I would have by just crapping out basic html with an image and some links*/
+
+.homebutton{
+	border: 1px solid white;
+	padding: 5px;
+	font-family: Georgia;
+	font-size: 20px;
+	letter-spacing: 0.2em;
+	margin-left: 50px;
+	background-color: transparent;
+	text-decoration: none;
+	background-color: rgba(0,0,0,0.3);
+}
+
+a:link{
+  color:white;
+}
+a:visited{
+  color:white;
+}
+a:hover{
+  color:white;
+}
+a:focus{
+  color:white;
+}
+a:active{
+  color:white;
+}
+a {
+	text-decoration:none
+}
+	
+
+.everything {
+	align-content: center;
+}
+
+.imageresize {
+	max-height: 180px;
+	align-items: center;
+}
+
+.column {
+    float:left;
+    width: 30%;
+}
+
+.row:after {
+    content: "";
+    display: table-column;
+    clear: both;
+}
+
+.modalbox .box {
+    background-color: rgba(0,0,0,0.5);
+    margin: 0 auto;
+	border: 1px solid white;
+    padding: 40px;
+    width: 29%;
+	position: absolute;
+    }
+    .modalbox .title {
+    border-bottom: 1px solid white;
+    font-family: Georgia;
+    font-size: 24px;
+    letter-spacing: 0.2em;
+    margin: 0;
+    padding: 0 0 10px;
+    color: white;
+        }
+    .modalbox .content {
+    display: block;
+    font-family: Georgia;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 10px 0 0;
+    color: white;
+        }
+    .modalbox .close {
+    color: white;
+    display: block;
+    float: right;
+    font-family: Georgia;
+    font-size: 20px;
+    height: 25px;
+        }
+
+.modalbox{
+    display: none;
+    z-index: 4;
+	/*It seemed a bit excessive to be 9999*/
+    width:auto;
+    height: auto;
+    top: 0;
+    left: 0;
+	padding-left: 50px;
+    }
+
+.modalbox:target {
+    display: block;
+    outline: none;
+}
+
+
+.link-modal{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 500px;
+    padding-left: 15px;
+}
+
+
+.link-modal a{
+    border: 1px solid white;
+    color: white;
+    font-family: Georgia;
+    font-size: 20px;
+    letter-spacing: 0.2em;
+    padding: 10px;
+    text-transform: uppercase;
+	background-color: rgba(0,0,0,0.3);
+}
+
