@@ -16,13 +16,45 @@ Created By:
 <meta charset="utf-8">
 <title>Main Page</title>
 <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
-<link href="CssStyles.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="CssStyles.css">
 </head>
 
+<style>
+	
+	<!-- style classes go here -->
+	body{
+		background-color: lightgray;
+	}
+	.color{
+		color: black;
+		text-align: center;
+	}
+	
+	.greyBox{
+		background-color: darkgray;
+	}
+	.dropdownButton{
+		margin-top: 35px;
+	}
+	.title{
+		margin-top: 25px;
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-bottom: 10px;
+	}
+	.subtitle{
+		height: 35px;
+	}
+	.footer{
+		margin-top: 20px;	
+	}
+	.centerPicture{
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+	}
+</style>
 
-
-<body>
+<body style="background-color: lightgray">
 	<div class="container-fluid row greyBox">  <!-- Header -->
 		
 		<!-- dropdown menu stuff here -->
@@ -30,7 +62,7 @@ Created By:
 			<button class="btn btn-light dropdown-toggle btn-lg align-self-center"	 type="button" id="asdf" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Members</button>
 			<div class="dropdown-menu " aria-labelledby="asdf">
 				<button class="dropdown-item color"><a href="JohnPage.html">John Kiser</a></button>
-				<button class="dropdown-item color"><a href="chrisPage.html">Chris Dahrens</a></button>
+				<button class="dropdown-item color" href="#">Chris Dahrens</button>
 				<button class="dropdown-item color" href="#">Matt Marquart</button>
 			</div>
 		</div>
