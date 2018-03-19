@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
 <file name="CssStyles.css" server="C:/wamp64/www/" local="131658946741244890" remote="131658946740000000" Dst="2" />
-<file name="Navbar.php" server="C:/wamp64/www/" local="131658946741345152" remote="131658946740000000" Dst="2" />
+<file name="Navbar.php" server="C:/wamp64/www/" local="131659019634857841" remote="131659019630000000" Dst="2" />
 <file name="README.md" server="C:/wamp64/www/" local="131616556920735411" remote="131616520920000000" Dst="2" />
 <file name="Web.config" server="C:/wamp64/www/" local="131628015146160605" remote="131627979140000000" Dst="2" />
 <file name="GroupMainPage.php" server="C:/wamp64/www/" local="131658946741264963" remote="131658946740000000" Dst="2" />
@@ -9,4 +9,6 @@
 <file name="MattStyle.css" server="C:/wamp64/www/" local="131658945138181635" remote="131658945130000000" Dst="2" />
 <file name="Matt'sPage.php" server="C:/wamp64/www/" local="131658946741325123" remote="131658946740000000" Dst="2" />
 <file name="chrisPage.php" server="C:/wamp64/www/" local="131658946741375236" remote="131658946740000000" Dst="2" />
+<file name="appStyle.css" server="C:/wamp64/www/" local="131659019634887882" remote="131659019630000000" Dst="2" />
+<file name="appPage.php" server="C:/wamp64/www/" local="131659021445414601" remote="131659021440000000" Dst="2" />
 </dwsync>
