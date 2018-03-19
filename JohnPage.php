@@ -60,10 +60,10 @@
 	
 </style>
 <body>
-	
+	<?php require_once ('Navbar.php'); ?>
 	<div class="container-fluid textColor">
   	<h1 class = "bgMargin" style = "background-color: black">John Kiser<br>Hello and welcome!</h1>
-	<?php require_once ('Navbar.php'); ?>
+	
 		<br>
 	
 
