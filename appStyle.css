@@ -5,7 +5,7 @@ font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-ser
 }
 
 .gamedes {
-	height: 220px;
+	height: auto;
 	background-color: lightgray;
 	border: solid 1px black;
 	padding-left: 5px;
@@ -13,7 +13,7 @@ font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-ser
 }
 
 .ruledes{
-	height: 450px;
+	height: auto;
 	background-color: lightgray;
 	border: solid 1px black;
 }
