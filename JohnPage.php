@@ -1,7 +1,6 @@
 ﻿<!doctype html>
 <html>
 <head>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<meta charset="utf-8">
 
 <title>JohnsPage</title>
