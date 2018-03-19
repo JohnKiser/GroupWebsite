@@ -5,11 +5,12 @@
    </head>
 <link rel="stylesheet" type="text/css" href="MattStyle.css"> 
 <div>
-	<button  class="homebutton"><a href="GroupMainPage.html">Return Home</a></button>
+	
 	</div>
 <div class="row">
 <div class="column">
 <body>
+	<?php require_once ('Navbar.php'); ?>
 <div class="modalbox" id="text">
   <div class="box">
     <a class="close" href="#">X</a>

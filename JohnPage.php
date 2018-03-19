@@ -1,11 +1,9 @@
 ﻿<!doctype html>
 <html>
 <head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/4.0.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
 <title>JohnsPage</title>
 </head>
 	
@@ -66,9 +64,10 @@
 	
 	<div class="container-fluid textColor">
   	<h1 class = "bgMargin" style = "background-color: black">John Kiser<br>Hello and welcome!</h1>
-	
+	<?php require_once ('Navbar.php'); ?>
 		<br>
-	<h2><button><a href="GroupMainPage.html">Home</a></button></h2>
+	
+
   	<div class="row">
    		 <div class="col-xs-5 col-sm-5">
 			 <h2>Bio:</h2>
