@@ -7,7 +7,7 @@
 		
 		<!-- dropdown menu stuff here -->
 		<div class="col-xl-auto dropdownButton">
-			<button class="btn btn-light dropdown-toggle btn-lg align-self-center"	 type="button" id="asdf" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Members</button>
+			<button class="btn btn-light dropdown-toggle btn-lg align-self-center"	 type="button" id="asdf" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</button>
 			<div class="dropdown-menu " aria-labelledby="asdf">
 				<button class="dropdown-item color"><a href="GroupMainPage.php">Home</a></button>
 				<button class="dropdown-item color"><a href="JohnPage.php">John Kiser</a></button>
